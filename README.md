@@ -7,6 +7,6 @@ Installation
 3. Clone the repository.
 4. Install jetson_Inference
 5. Change directory to Jetson_Inference and run this command: ./docker/run.sh
-6. While in the docker navigate to python/training/classification
+6. While in the docker navigate to python/training/classification/models/age_guess
 7. Run the command "imagenet.py --model=resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt /dev/video0"
 8. Show images to the camera and it will predict the age
